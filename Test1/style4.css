@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    margin:0;
+    padding:0;
+    color:white;
+    
+}
+.profile{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    padding-left:100px;
+    padding-right:100px;
+    
+
+}
+.image{
+    padding-left:100px;
+    padding-right:100px;
+}
+.azn{
+    width:200px;
+}
+.pro h4{
+    line-height: 30px;
+}
+.pro,.image{
+    border:2px solid #e7e7e7;
+    border-radius: 5px;
+    padding:20px;
+    background-color: lightgray;
+    color:darkslateblue;
+}
+.image{
+    padding-left:175px;
+    padding-top:30px;
+}
+
+.edu{
+    padding-left: 100px;
+    padding-right:100px;
+    border:2px solid #e7e7e7;
+    margin-top:10px;
+    border-radius: 10px;
+    background-color: darkslateblue
+}
+.edu h4{
+    line-height: 30px;
+}
+.card1{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin-top:10px;
+}
+.project,.tech,.lang{
+    border:2px solid #e7e7e7;
+    border-radius: 10px;
+    background-color: lightgrey;
+    color:darkslateblue;
+}
+.project{
+    padding-left:100px;
+    padding-right:100px;
+}
+.tech{
+    padding-left:100px;
+    padding-right:100px;
+}
+.lang{
+    padding-left:100px;
+    padding-right:100px;
+}
+.cer{
+    padding-left:100px;
+    padding-right:100px;
+}
+.cer,.award{
+    border:2px solid #e7e7e7;
+    border-radius: 10px;
+    background-color:darkslateblue;
+}
+.card2{
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.card3{
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.award{
+    padding-left:100px;
+    padding-right:100px;
+}
+.acti,.work{
+    border:2px solid #e7e7e7;
+    border-radius:10px;
+    background-color: lightgray;
+    color:darkslateblue;
+    padding-left:10px;
+}
